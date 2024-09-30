@@ -1,7 +1,7 @@
 //serie fibonacci -> 1 1 2 3 5 8 13 21 44... n
 
 #include <iostream>
-
+#include <stdlib.h>
 using namespace std;
 
 int main()
@@ -10,7 +10,7 @@ int main()
 
     cout<< "Digite un numero: "; cin>>n;
         cout <<"1 ";
-        for(int i=1; i<=n; i++){
+        for(int i=1; i<n; i++){
             //cout <<"a = "<<a<<" b = "<<b<<" c = "<<c<<endl;
             c = a + b;
             cout<<c<<" "; // 1 2 3 5 8
